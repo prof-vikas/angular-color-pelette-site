@@ -7,6 +7,11 @@
             <th>Name</th>
             <th>Username</th>
             <th>Email</th>
+            <th>Streets</th>
+            <th>city</th>
+            <th>Zipcode</th>
+            <th>Lattitude</th>
+            <th>Longitude</th>
             </tr>
         </thead>
         <tbody>
@@ -15,7 +20,11 @@
                 <td>{{d.name}}</td>
                 <td>{{d.username}}</td>
                 <td>{{d.email}}</td>
-                <td>{{d.phone}}</td>
+                <td>{{d.address.street}}</td>
+                <td>{{d.address.city}}</td>
+                <td>{{d.address.zipcode}}</td>
+                <td>{{d.address.geo.lat}}</td>
+                <td>{{d.address.geo.lng}}</td>
             </tr>
         </tbody>
     </table>
