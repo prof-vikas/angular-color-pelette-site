@@ -9,7 +9,7 @@ import { FakeDataSourceService } from 'src/app/appService/fake-data-source.servi
 export class BlogsComponent implements OnInit {
 
   constructor(private fakeService: FakeDataSourceService) { }
-  datas: any =[];
+datas: any = []
   // datas = [
   //   {Fruits:'apple',Vegetables:'potato',animals:'dog',wildAnimals:'tiger' },
   //   {Fruits:'mango',Vegetables:'tomato',animals:'cat',wildAnimals:'lion' },

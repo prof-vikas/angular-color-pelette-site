@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Titan+One&display=swap');
+
+.container{
+    margin: 1rem;
+    padding: 1rem;
+}
+.container .row .col-md-2{
+    width: 200px;
+    height: 100px;
+}
+
+.container .row .col-md-1{
+    width: 200px;
+    height: 100px;
+}
+.amp-1{
+    margin: 1rem;
+    padding: 1rem;
+}
+.copyd{
+    color : rgba(255, 255, 255, 0.01);
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 900;
+}
+.copyd:hover{
+    color : rgb(255, 255, 255);
+}
+.copyl{
+    color : rgba(106, 106, 106, 0.01);
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 900;
+}
+.copyl:hover{
+    color : rgb(97, 97, 97);
+}
+
+.vl {
+    border-left: 10px solid green;
+    height: 100%;
+  }
+
+
+h4{
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* .myColor{
+    color : rgba(255, 255, 255, 0.01);
+}
+
+.myColor:hover {
+    color : rgba(255, 255, 255);
+} */
+
+/* Colors binding code */
+.a1{
+    background-color: #8ecae6;
+}
+.a2{
+    background-color: #219ebc;
+}
+.a3{
+    background-color: #023047;
+}
+.a4{
+    background-color: #ffb703;
+}
+.a5{
+    background-color: #fb8500;
+}
+.a6{
+    background-color: #264653;
+}
+.a7{
+    background-color: #ccd5ae;
+}
+.a8{
+    background-color: #e9edc9;
+}
+.a9{
+    background-color: #d4a373;
+}
+.a9{
+    background-color: #fefae0;
+}
+.a10{
+    background-color: #faedcd;
+}
+.a11{
+    background-color: #cdb4db;
+}
+.a12{
+    background-color: #ffc8dd;
+}
+.a13{
+    background-color: #ffafcc;
+}
+.a14{
+    background-color: #bde0fe;
+}
+.a15{
+    background-color: #a2d2ff;
+}

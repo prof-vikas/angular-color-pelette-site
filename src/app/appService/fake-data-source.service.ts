@@ -13,4 +13,8 @@ export class FakeDataSourceService {
   dataMethod():Observable<any>{
     return this.http.get(this.url);
   }
+
+  // public deleteMethod(id:number):Observable<void>{
+  //   return this.http.delete<void>('https://jsonplaceholder.typicode.com/posts/1')
+  // }
 }

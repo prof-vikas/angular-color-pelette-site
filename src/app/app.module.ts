@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './navBar/home/home.component';
@@ -21,12 +20,14 @@ import { HttpClientModule } from '@angular/common/http';
     ColorsComponent,
     ExploreComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
