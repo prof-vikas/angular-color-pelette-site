@@ -10,6 +10,11 @@ import { ExploreComponent } from './navBar/explore/explore.component';
 import { NavbarComponent } from './navBar/navbar/navbar.component';
 import { FooterComponent } from './footer/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SidePanelComponent } from './navBar/colors/side-panel/side-panel.component';
+import { NavComponent } from './navBar/colors/sidePanel/nav/nav.component';
+import { BodyComponent } from './navBar/colors/sidePanel/body/body.component';
+import { SideWebComponent } from './navBar/colors/sidePanel/side-web/side-web.component';
+import { InnerFooterComponent } from './navBar/colors/sidePanel/inner-footer/inner-footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +26,11 @@ import { HttpClientModule } from '@angular/common/http';
     ExploreComponent,
     NavbarComponent,
     FooterComponent,
+    SidePanelComponent,
+    NavComponent,
+    BodyComponent,
+    SideWebComponent,
+    InnerFooterComponent,
 
   ],
   imports: [

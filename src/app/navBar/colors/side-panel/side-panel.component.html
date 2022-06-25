@@ -1,0 +1,32 @@
+<div class="container bg-info p-1 btn" style="margin-top:-200px">
+    <div class="row">
+        <div class="d-flex align-items-center justify-content-center">
+            <form #box>
+                <div>
+                    <h4>Welcome {{username}} !</h4>
+                </div>
+
+                <label for="select">Select Property</label><br>
+                <select name="select" id="select">
+                <option value="navbar-bg">Navigation Background</option>
+                <option value="navbar-link">Navigation Link</option>
+                <option value="body">Body Background</option>
+                <option value="title">Title</option>
+                <option value="header">Header</option>
+                <option value="footer">footer Background</option>
+                <option value="footer-link">footer Color</option>
+                </select>
+
+                <br><br>
+
+                <label for="userinput">Enter color Code : </label><br>
+                <input type="text" name="userinput" #userinput placeholder="#dedede">
+                <button onclick="alert('Some has click me')">Click me</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br><br>
+<app-side-web></app-side-web>
+
+

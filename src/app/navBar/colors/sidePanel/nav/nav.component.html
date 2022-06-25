@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" routerLink="/">
+    <a class="navbar-brand">
         <img src="./assets/logo/companyLogo64.png" width="30" height="30" class="d-inline-block align-top" alt="Brand-Logo">
         <span class="a">P</span>
         <span class="b">a</span>
@@ -14,24 +14,18 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse d-flex justify-content-center align-items-end" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav" >
             <li class="nav-item">
-                <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                <a class="nav-link" routerLinkActive="active">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/colors" routerLinkActive="active">Colors</a>
+                <a class="nav-link">Colors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/blogs" routerLinkActive="active">Blogs</a>
+                <a class="nav-link">Blogs</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/explore" routerLinkActive="active">Explore</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
-            </li>
+
         </ul>
     </div>
 </nav>
-<router-outlet></router-outlet>

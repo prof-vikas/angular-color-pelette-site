@@ -1,6 +1,6 @@
-<div class="container d-flex justify-content-center align-items-center">
-    <div class="row">
-    <div class="col-md-8">
+<div class="container ">
+    <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-8 overflow-auto">
         <div class="row" *ngFor="let color of colors">
             <!-- color status = 1 -->
             <div class="copyd col-md-1 a1 amp-1 btn" (click)="copy('#a1')" (mouseleave)="moved()"><span *ngIf="mytext; else copied">Copy</span>
@@ -107,9 +107,8 @@
     </div>
     </div>
 
-    <div class="vl">hello</div>
 
-    <div class="col-md-3">
-
+    <div class="col-md-4 justify-content-center align-items-start">
+        <app-side-panel></app-side-panel>
     </div>
 </div>
